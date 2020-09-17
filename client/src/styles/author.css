@@ -1,0 +1,21 @@
+.my-dear-author {
+  cursor: pointer;
+}
+.my-dear-author:hover {
+  text-decoration: underline black;
+}
+
+.comment-box {
+  font-size: 15px;
+  margin: 3em;
+  margin-left: auto;
+  box-sizing: border-box;
+  border: 2px salmon black;
+}
+.comment-box span {
+  margin-left: 1em;
+}
+.comment-box span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

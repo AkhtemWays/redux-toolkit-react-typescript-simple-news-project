@@ -1,0 +1,13 @@
+.home-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em auto;
+}
+.home-main__grid {
+  display: grid;
+  gap: 2em;
+  grid-template-columns: repeat(3, 1fr);
+  width: 60%;
+}
